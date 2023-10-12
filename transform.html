@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transformer</title>
+    <style>
+      .container,
+      .inner {
+        width: 150px;
+        height: 150px;
+
+        border: 1px solid black;
+      }
+      .container {
+        background-color: lightgreen;
+      }
+      .inner {
+        background-color: lightblue;
+        /* transform: scale(0.75); */
+        /* transform: rotate(45deg); */
+        /* transform: translate(50px, 50px); */
+        transform: translate(50px, 50px) scale(0.7) rotate(45deg);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Transformer I am Coming</h1>
+    <div class="box container">
+      <div class="inner">box-1</div>
+    </div>
+    <div class="box container">
+      <div class="inner">box-2</div>
+    </div>
+    <div class="box container">
+      <div class="inner">box-3</div>
+    </div>
+  </body>
+</html>

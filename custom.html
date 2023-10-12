@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom</title>
+    <style>
+      /* custom variable declare */
+      :root {
+        --primary-color: slateblue;
+        --single-border: 2px solid red;
+      }
+      /* custom variable end */
+      h1 {
+        color: var(--primary-color);
+      }
+      #heading-3 {
+        border: 2px solid var(--primary-color);
+      }
+      p {
+        border-bottom: var(--single-border);
+      }
+      .box {
+        background-color: var(--primary-color);
+        border: var(--single-border);
+        width: calc(100% - 500px);
+        height: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="heading" id="heading-1">my Strong heading -1</h1>
+    <h1 class="heading" id="heading-2">my Strong heading -2</h1>
+    <h1 class="heading" id="heading-3">my Strong heading -3</h1>
+    <h1 class="heading" id="heading-4">my Strong heading -4</h1>
+    <p>My Simple Talk</p>
+    <div class="box">
+      <h3>My Boxing Box</h3>
+    </div>
+  </body>
+</html>
